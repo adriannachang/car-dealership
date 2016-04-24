@@ -12,3 +12,9 @@ Inventory # must be a 4-digit integer
 Auto VIN must be a char array of 17 digits - either letters or numbers
 The make, model, colours, and transmission of the car must be char arrays
 The price of the car must be a float
+
+CHALLENGES FACED: 
+Figuring out how to sort the cars according to their inventory number was definitely a challenge for me - I was initally unsure of how to do it, but ended up pushing all of the inventory vehicles into a vector, sorting the vector, and then rewriting the data in the vector back to the binary file. Furthermore, I was challenged with how to allow the user to delete a vehicle from the inventory... I solved this by using a temporary text file, in which all the vehicle data EXCEPT for the vehicle the user wanted to delete was written to the temp file, and then the temp file was renamed to replace the old binary file.
+
+MOST PROUD OF:
+I was pretty proud of this entire project as a whole... I worked extremely hard on it, and I wanted the program to be able to do as much for the user as possible. Being able to search and delete vehicles from the inventory was a feature I worked hard on and thought was very cool.
